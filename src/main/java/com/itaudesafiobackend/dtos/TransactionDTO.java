@@ -4,5 +4,16 @@ import org.springframework.format.annotation.DateTimeFormat;
 
 import java.time.OffsetDateTime;
 
-public record TransactionDTO(float valor, OffsetDateTime dataHora) {
+public class TransactionDTO {
+
+    private double valor;
+    private OffsetDateTime dataHora;
+
+    public double getValor() {
+        return this.valor;
+    }
+
+    public OffsetDateTime getDataHora() {
+      return this.dataHora;
+    }
 }
