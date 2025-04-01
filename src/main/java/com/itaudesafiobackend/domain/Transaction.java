@@ -14,7 +14,7 @@ public class Transaction {
         this.dataHora = dataHora;
     }
 
-    public double getValor() {
+    public double getValor()  {
         return valor;
     }
 

@@ -31,7 +31,7 @@ public class TransactionService {
     }
 
     public void clearTransactions(){
-        transactions.clear();
+        transactions.clear() ;
     }
 
     public DoubleSummaryStatistics getStatistics(){

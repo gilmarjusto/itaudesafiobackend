@@ -9,7 +9,7 @@ public class TransactionDTO {
     private double valor;
     private OffsetDateTime dataHora;
 
-    public double getValor() {
+    public double getValor()  {
         return this.valor;
     }
 
